@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7ff;
+}
+
+.center-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* LOGIN CARD */
+.auth-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    text-align: center;
+}
+
+.auth-card h2 {
+    margin-bottom: 1.5rem;
+    color: #49adf0;
+    font-size: 2rem;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #49adf0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button.secondary {
+    background-color: #ffffff;
+    color: #49adf0;
+    border: 1px solid #49adf0;
+}
+
+.auth-button:hover {
+    background-color: #1c7fa3;
+}
+
+.auth-button.secondary:hover {
+    background-color: #e0f7ff;
+}
