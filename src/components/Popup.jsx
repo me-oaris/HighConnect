@@ -1,22 +1,27 @@
 import { useEffect, useState } from "react";
 import "./Popup.css";
+import success_image from "../images/success.png"
+import error_image from "../images/error.png"
+import info_image from "../images/info.png"
+import primary_image from "../images/primary.png"
+
 
 const modeConfig = {
   success: {
     color: "#4caf50",
-    image: "https://via.placeholder.com/60/4caf50/ffffff?text=✔"
+    image: success_image
   },
   error: {
     color: "#f44336",
-    image: "https://via.placeholder.com/60/f44336/ffffff?text=✖"
+    image: error_image
   },
   primary: {
     color: "#1976d2",
-    image: "https://via.placeholder.com/60/1976d2/ffffff?text=P"
+    image: primary_image
   },
   info: {
     color: "#d1ba37ff",
-    image: "https://via.placeholder.com/60/2196f3/ffffff?text=i"
+    image: info_image
   }
 };
 
