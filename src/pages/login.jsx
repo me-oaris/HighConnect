@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from '../components/Navbar';
 import Popup from '../components/Popup';
 import './login.css';
 
 function Login() {
+  useEffect(() => {
+    document.title = "Login - HConnect"; 
+  }, []);
   const baseURL = "";
 
   const [show, setShow] = useState(false);
